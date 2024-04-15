@@ -1,0 +1,48 @@
+{
+	"read": [
+		{
+			"name": "modbus-rtu",
+			"settings": {
+				"comport": "",
+				"parity": ["ODD", "EVEN", "NONE"],
+				"baudrate": [4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600],
+				"stopbits": [1, 2],
+				"wordlength": [7, 8]
+			}
+		},
+		{
+			"name": "modbus-tcp",
+			"settings": {
+				"baudrate": [4800, 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600],
+				"stopbits": [1, 2],
+				"wordlength": [7, 8]
+			}
+		}
+	],
+	"write": [
+		{
+			"name": "sparkplugb",
+			"settings": {
+				"broker_host": "192.168.1.21",
+				"broker_port": "1883",
+				"group_id": "office_test",
+				"node_id": "rpi1"				
+			}
+		},
+		{
+			"name": "local_storage",
+			"settings": {
+				"URL": "",
+				"path": ""
+			}
+		}
+	],
+	"middleware": [
+		{
+			"name": "redis",
+			"settings": {
+				"url": "http://localhost:6379"
+			}
+		}
+	]
+}

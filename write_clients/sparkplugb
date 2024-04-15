@@ -1,0 +1,13 @@
+
+
+
+{
+  "sparkplugb_parameters": {
+    "broker_host": "192.168.1.21",
+    "broker_port": "1883",
+    "group_id": "office_test",
+    "node_id": "rpi1",
+    "client_id": "office1"
+  }
+}
+

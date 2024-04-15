@@ -1,0 +1,391 @@
+{
+  "companies": {
+    "multispan": {
+      "device_types": {
+        "energy_meter": {
+          "models": {
+            "avh14-m1": {
+              "parameters": [
+                {
+                  "address": 0,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kwh",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 4,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvah",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 8,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 24,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vln",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 40,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vll",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 56,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_current",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 68,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_pf",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 70,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "frequency",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 84,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kw",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 100,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kva",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 116,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kvar",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "elmeasure": {
+      "device_types": {
+        "energy_meter": {
+          "models": {
+            "LGXXXX": {
+              "parameters": [
+                {
+                  "address": 242,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kwh-R",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 244,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kwh-Y",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 246,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kwh-B",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 248,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvah-rec-R",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 250,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvah-rec-Y",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 252,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvah-rec-B",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 254,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-inductive received-R",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 256,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-inductive received-Y",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 258,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-inductive received-B",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 260,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-capacitive received-R",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 262,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-capacitive received-Y",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 264,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh-capacitive received-B",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 140,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vln",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 132,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vll",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 148,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_current",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 116,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_pf",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 156,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "frequency",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 196,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kw",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 210,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kva",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 212,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "total_kvar",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wecon": {
+      "device_types": {
+        "plc": {
+          "models": {
+            "LX2E": {
+              "parameters": [
+                {
+                  "address": 1,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kwh",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 5,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvah",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 7,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "kvarh",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 9,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vln",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 15,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_vll",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 22,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_current",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 27,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "avg_pf",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                },
+                {
+                  "address": 28,
+                  "aggregation_type": "current_val",
+                  "data_type": "Float",
+                  "function_code": "Holding Register",
+                  "parameter_name": "frequency",
+                  "threshold": 0,
+                  "parameter_status": ["active", "deactive"]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

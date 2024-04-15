@@ -1,0 +1,61 @@
+{
+    "custom_device": {
+      "device_name": "",
+      "device_type":  ["plc", "energy_meter"],
+      "device status":  ["active", "deactive"],
+      
+      "read_clients": [
+        {
+          "type": "Modbus_RTU",
+          "slave_id": "1"
+        },
+        {
+          "type": "Modbus_TCP",
+          "ip_address": "192.168.1.100"
+        }
+      ],
+      "write_clients": [
+        {
+          "type": "SparkplugB",
+          "client_id": "client1",
+          "client_password": "your_password"
+        },
+        {
+          "type": "local_storage",
+          "check_frequency": {
+            "days": 1,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
+          "success_retention": {
+            "days": 7,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
+          "failure_retention": {
+            "days": 1,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          }
+        }
+      ]
+    },
+      "make": ["xyz"],                          
+      "model": ["xyz"], 
+      "device_delay": "10s",
+      "parameters": [
+        {
+          "function_code": ["coild status", "input status", "holding register", "input register"],
+          "address": "",
+          "parameter": "",
+          "data_type": ["integer", "float", "double", "boolean"],
+          "threshold": "",
+          "aggregation": ["current value", "minimum", "maximum", "average", "median", "root mean square", "mode"],
+          "device status":  ["active", "deactive"]
+        }
+      ]
+    }
+  
